@@ -17,19 +17,19 @@ const Phones = () => {
             </div>
             <div className="card-content bb">
               <img src={GoogleHome} alt="" className='cards-img sds' />
-              <span className='cards-text hight-resize'>Pixel issue's</span>
+              <span className='cards-text hight-resize'>Display issue's</span>
             </div>
             <div className="card-content">
               <img src={Laptop} alt="" className='cards-img' />
-              <span className='cards-text'>Pixel issue's</span>
+              <span className='cards-text'>Chomebook issue's</span>
             </div>
             <div className="card-content">
               <img src={Tower} alt="" className='cards-img' />
-              <span className='cards-text'>Pixel issue's</span>
+              <span className='cards-text'>Tower issue's</span>
             </div>
             <div className="card-content">
               <img src={PhoneOne} alt="" className='cards-img resize' />
-              <span className='cards-text'>Pixel issue's</span>
+              <span className='cards-text'>Demo issue's</span>
             </div>
           </div>
         </div>
