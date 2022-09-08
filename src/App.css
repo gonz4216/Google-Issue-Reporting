@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a {
+  text-decoration: none;
+}
+
+h1 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.logo {
+  width: 100%;
+  max-width: 30px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+nav {
+  transition: all 1s ease-in-out;
+}
+
+.trans {
+  transition: all ease 500ms;
+}
+
+.nav-bar {
+  background-color: #ffffff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  width: 100%;
+  transition: all 500ms ease-in-out;
+}
+
+.container-nav {
+  display: flex;
+}
+
+.logo-text {
+  padding-left: 40px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+
+.container-hero {
+  text-align: center;
+  padding-top: 80px;
+  background: linear-gradient(109deg, rgba(218, 219, 220, 1) 0%, rgba(255, 255, 255, 1) 36%);
+
+
+}
+
+.hero-para {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  line-height: 32px;
+}
+
+.hero-img {
+  margin: 0 auto;
+}
+
+.cards {
+  background-color: white;
+}
+
+.cards-text {
+  color: #0072F5;
+  font-weight: 500;
+margin: 0;
+padding: 0;
+}
+
+
+
+.cards-img {
+  width: 100%;
+  max-width: 200px;
+
+}
+
+* {
+  /* outline: green solid 1px; */
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 30px;
+  width: 30%;
+  transition: all ease-in-out 500ms;
+  position: relative;
+  z-index: 10;
+cursor: pointer;
+}
+
+.card-content:hover {
+  width: 33%;
+
+
+
+
+
+}
+
+.cards_contaier {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+position: relative;
+}
+
+@media (max-width:1010px) {
+  .cards_contaier {
+
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width:835px) {
+  .cards_contaier {
+
+    flex-wrap: wrap;
   }
+}
+
+@media (max-width:755px) {
+  .cards-text {
+    font-size: 13px;
+  }
+
+}
+
+.cards {
+  margin-top: 150px;
+}
+
+.resize{
+  width: 50%;
+ 
+}
+
+.hight-resize{
+
+  
+}
+.sds{
+  margin-top: 30px;
+margin-bottom: 20px;
+}
+.bb{
+
 }
