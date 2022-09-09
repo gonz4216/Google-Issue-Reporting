@@ -401,3 +401,37 @@ flex-direction: column;
 .sub{
   background-color: white;
 }
+.mail-logo{
+  width: 100%;
+  max-width: 25px;
+  margin-right: 20px;
+
+color: #cccccc !important;
+
+
+}
+
+.container-mail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   padding-top: 20px;
+}
+input{
+ border-bottom: 1px rgb(196, 196, 196) solid;
+
+ 
+}
+input::placeholder{
+
+}
+
+form{
+  display: flex;
+align-items: center;
+}
+
+.btn-mail{
+  background-color: #F5A524 !important;
+  margin-left: 30px;
+}
