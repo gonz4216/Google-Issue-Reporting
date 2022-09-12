@@ -8,6 +8,7 @@ import Phones from './Phones';
 import PDHero from './PDHero';
 import FootHero from './FootHero';
 import Subcribe from './Subcribe';
+import Footer from './Footer';
 
 
 
@@ -21,6 +22,7 @@ function App({ Component }) {
     <PDHero />
     <FootHero />
     <Subcribe />
+    <Footer />
     </NextUIProvider>
   );
 }

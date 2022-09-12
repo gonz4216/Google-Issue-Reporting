@@ -435,3 +435,71 @@ align-items: center;
   background-color: #F5A524 !important;
   margin-left: 30px;
 }
+
+.sub{
+  margin-top:30px ;
+}
+
+.container_footer{
+  display:flex;
+flex-direction: column;
+}
+.reactimg{
+  width: 100%;
+  max-width: 70px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+
+.google_logo{
+  width: 100%;
+  max-width: 120px;
+}
+
+.col--content-footer{
+  font-weight: 500;
+  color: rgb(165, 165, 165);
+  padding: 0 20px;
+}
+
+.col--1{
+  display: flex;
+ align-items: center;
+}
+.col2-header{
+  font-size: 15px;
+font-weight: 500;
+letter-spacing: .5px;
+color: rgb(126, 126, 126);
+}
+
+.col--2{
+  display: flex;
+ padding: 10px;
+ padding-left: 10px;
+  align-items: center;
+}
+.footer{
+  margin: 90px;
+}
+
+.line{
+  border: 0.1px rgb(241, 241, 241) solid;
+margin: 50px 50px;
+}
+a{
+  text-decoration: none;
+}
+@media (max-width:755px) {
+  .col--1{
+    flex-direction: column;
+   
+  }
+  .atag{
+    padding: 20px 0;
+  }
+}
+
+.cards-img{
+  cursor:no-drop;
+}

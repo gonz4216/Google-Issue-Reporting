@@ -1,6 +1,7 @@
 import { Button } from '@nextui-org/react'
 import React from 'react'
 import { useState } from 'react'
+import { Input, Spacer } from "@nextui-org/react";
 import Mail from './img/env.svg'
 const Subcribe = () => {
  
@@ -12,14 +13,18 @@ const Subcribe = () => {
           <img src={Mail} alt="" className="mail-logo"/>
           <form action="">
      
-            <input type="text" name='mail' placeholder='Email Address'/>
+          <Input clearable underlined labelPlaceholder="Email" initialValue="" />
             <Button className='btn-mail'>Submit</Button>
             
           </form>
           
         </div>
       </div>
-
+      
+      
+      
+      
+     
     </div>
   )
 }
